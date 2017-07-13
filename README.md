@@ -2,6 +2,10 @@
 
 In this project I designed a linear model to predict average ratings (out of 5) for beers on RateBeer.com.  
 
+### Requirements
+
+pandas, requests, beautifulsoup4, Selenium with [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=2.30/)
+
 Data was scraped from the website using BeautifulSoup and Selenium.
 
 `scraper.py`: extracts all the necessary information from a ratebeer.com page for a single beers
@@ -11,5 +15,3 @@ Data was scraped from the website using BeautifulSoup and Selenium.
 `collect.py`: runs the searcher and scraper to collect data for beers in the United States
 
 data for the 50 states is cleaned and  analyzed in the `analyze.ipynb`
-
-Download the [Selenium chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=2.30/).  You'll need it to run `searcher.py`
