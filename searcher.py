@@ -12,9 +12,8 @@ from selenium.webdriver.common.keys import Keys
 def search_state(select_state):
     url = "https://www.ratebeer.com"
 
-    chromedriver = "C:/Users/Avi/anaconda3_linux/chromedriver"
+    chromedriver = "C:/.../chromedriver" #directory w/ Selenium chromedriver
 
-    #with webdriver.Chrome(chromedriver) as driver:
     driver = webdriver.Chrome(chromedriver)
     driver.get("https://www.ratebeer.com/search.php")
 
