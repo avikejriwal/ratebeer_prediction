@@ -4,7 +4,7 @@ In this project I designed a linear model to predict average ratings (out of 5) 
 
 ### Requirements
 
-pandas, requests, beautifulsoup4, selenium with [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=2.30/), jupyter notebook, scikit-learn
+pandas, requests, patsy, beautifulsoup4, selenium with [chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=2.30/), jupyter notebook, scikit-learn
 
 ### Details
 
