@@ -30,3 +30,5 @@ Most important features:
 - ABV
 - State of origin
 - Beer style
+
+### [Read More](https://avikejriwal.github.io/Beer-Rating-Regression-Model/)
