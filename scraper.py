@@ -1,3 +1,5 @@
+#Given a single beer rating webpage, collect all the relevant data from it
+
 from __future__ import print_function, division
 import requests
 from bs4 import BeautifulSoup

@@ -1,3 +1,5 @@
+#Runs the scraper on all states on the website
+
 from searcher import *
 from scraper import *
 import pandas as pd
